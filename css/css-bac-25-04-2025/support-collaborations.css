@@ -1,0 +1,177 @@
+.common_bg_color {
+background: linear-gradient(259deg, rgba(251, 251, 238, 0.16) 7.4%, rgba(218, 82, 44, 0.03) 22.62%, rgba(32, 64, 154, 0.05) 85.46%), #FBFBEE;
+}
+.collaboration_section {
+    position: relative;
+    width: 100%;
+    padding: 3.75vw 0px;
+}
+.collaboration_section .common_heading {
+    width: 62%;
+}
+.collaboration_section .heading_text {
+    width: 38%;
+    color: var(--foreground-secondary);
+}
+.collaboration_section .heading_text p {
+    color: var(--foreground-secondary);
+}
+.collaboration_section .collaboration_row {
+    position: relative;
+    margin-top: 3.54167vw;
+}
+.collaboration_section .collaboration_col .collaboration_box {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: var(--background-secondary);
+    padding: 2.97339vw 1.14583vw;
+}
+.collaboration_section .collaboration_box .collaboration_img {
+    width: 100%;
+}
+.collaboration_section .collaboration_box .collaboration_img img {
+    width: 100%;
+}
+.collaboration_section .slick-slide {
+    padding: 0 10px;
+  }
+.collaboration_section .slick-list {
+    margin: 0 -10px;
+  }
+  
+.collaboration_section .collaboration_content {
+    padding-top: 1.14583vw;
+}
+
+.collaboration_section .btn-wrap {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.625vw;
+}
+.collaboration_section .btn-wrap button.slick-disabled {
+    opacity: 0.6;
+    background: none;
+}
+.collaboration_section .btn-wrap button svg {
+    fill: var(--button-foreground-secondary);
+    color: var(--button-foreground-secondary);
+    width: 100%;
+    height: 100%;
+    padding: 0.521vw;
+}
+.collaboration_section .btn-wrap button {
+    background: var(--container-bg-on-peach);
+    border: none;
+    width: 3.229vw;
+    height: 3.229vw;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+    border-radius: 5.20833vw;
+    -webkit-border-radius: 5.20833vw;
+    -moz-border-radius: 5.20833vw;
+    -ms-border-radius: 5.20833vw;
+    -o-border-radius: 5.20833vw;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.collaboration_section .collaboration_col .collaboration_box:hover {
+    border: 1px solid var(--foreground-on-white-red);
+    box-shadow: 1px 1px 36px 0px rgba(218, 82, 44, 0.12);
+}
+.collaboration_section.internatonal_donors_section {
+    padding-bottom: 5.72917vw;
+}
+.collaboration_section .collaboration_col .collaboration_box:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0 .5s;
+    -webkit-transition: 0 .5s;
+    -moz-transition: 0 .5s;
+    -ms-transition: 0 .5s;
+    -o-transition: 0 .5s;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .collaboration_heading {
+        align-items: center;
+    }
+    .collaboration_section .common_heading {
+        width: 50%;
+    }
+    .collaboration_section .heading_text {
+        width: 50%;
+    }
+    .collaboration_section .btn-wrap button {
+        width: 4.629vw;
+        height: 4.629vw;
+    }
+}
+@media screen and (max-width: 991px) {
+    .about_banner img {
+        height: 380px;
+    }
+    .collaboration_section {
+        padding: 8vw 0px;
+    }
+    .collaboration_heading {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+    .collaboration_section .common_heading {
+        width: 100%;
+    }
+    .collaboration_section .heading_text {
+        width: 100%;
+    }
+    .collaboration_section .collaboration_row {
+        margin-top: 5.54167vw;
+    }
+    .collaboration_section .btn-wrap button {
+        width: 5.629vw;
+        height: 5.629vw;
+    }
+    .collaboration_section .collaboration_col .collaboration_box {
+        padding: 3.97339vw 2.64583vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_banner img {
+        height: 100%;
+    }
+    .collaboration_section .collaboration_col .collaboration_box {
+        padding: 10.97339vw 8.14583vw;
+    }
+    .collaboration_section .collaboration_content {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .collaboration_section .btn-wrap {
+        margin-top: 6.625vw;
+    }
+    .collaboration_section .btn-wrap button {
+        width: 12.229vw;
+        height: 12.229vw;
+        padding: 10px;
+    }
+    .collaboration_section {
+        padding: 12vw 0px;
+    }
+    .collaboration_section .collaboration_row {
+        margin-top: 8.54167vw;
+    }
+    .collaboration_section.internatonal_donors_section {
+        padding-bottom: 15.72917vw;
+    }
+}

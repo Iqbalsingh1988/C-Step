@@ -1,0 +1,730 @@
+.about_banner.clean-air-all_banner .content_banner {
+    width: 47vw;
+    top: 8vw; 
+}
+.about_banner.clean-air-all_banner .breadcrumb {
+    margin-bottom: 2.86458vw;
+}
+.about_banner.clean-air-all_banner .content_banner .pera_cntent {
+    margin-top: 1.5625vw;
+}
+.about_banner.clean-air-all_banner .pera_cntent p {
+    margin-bottom: 1.82292vw;
+}
+.about_banner.clean-air-all_banner .pera_cntent p:last-child {
+    margin-bottom: 0px;
+}
+
+/* pollution impact css start */
+.pollution_impact_section {
+    position: relative;
+    width: 100%;
+    margin-top: -4.6875vw;
+}
+.pollution_impact_section .pollution_impact_inner {
+    background: var(--foreground-on-white-blue);
+    padding: 2.1875vw 3.64583vw 2.8125vw 3.64583vw;
+    color: var(--container-bg-primary);
+    justify-content: start;
+    align-items: center;
+    border-radius: 1.25vw;
+    -webkit-border-radius: 1.25vw;
+    -moz-border-radius: 1.25vw;
+    -ms-border-radius: 1.25vw;
+    -o-border-radius: 1.25vw;
+}
+.pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt {
+    gap: 1.04167vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--gradient-bg-section-primary);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.28px;
+}
+.pollution_impact_left {
+    width: 22%;
+}
+.pollution_impact_section::before {
+    content: "";
+    position: absolute;
+    left: 27.5%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.50);
+}
+.pollution_impact_right {
+    width: 78%;
+    padding-left: 2.86458vw;
+}
+.pollution_impact_right ul {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 3.125vw;
+}
+.pollution_impact_right ul li {
+    width: 25%;
+}
+.pollution_impact_right ul li .pera_cntent {
+    color: var(--container-bg-primary);
+    line-height: 1.5;
+    letter-spacing: -0.18px;
+    font-family: var(--theme-barlow-font);
+    font-weight: 500;
+}
+.pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt span {
+    width: 87px;
+}
+.pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt span img {
+    width: 100%;
+}
+
+/* pollution impact css end */
+
+.why_matters {
+    position: relative;
+    width: 100%;
+    padding-top: 8.75vw;
+    padding-bottom: 3.64583vw;
+    background: var(--container-bg-peach-transparent, #FBFBEE);
+    margin-top: -4.16667vw;
+    z-index: -1;
+    border-radius: 6.66667vw 0px 0px 0px;
+    -webkit-border-radius: 6.66667vw 0px 0px 0px;
+    -moz-border-radius: 6.66667vw 0px 0px 0px;
+    -ms-border-radius: 6.66667vw 0px 0px 0px;
+    -o-border-radius: 6.66667vw 0px 0px 0px;
+}
+
+.why_matters .why_matters_inner {
+    justify-content: start;
+    align-items: center;
+    gap: 4.94792vw;
+}
+.why_matters .why_matters_inner .why_matters_img {
+    width: 45%;
+}
+.why_matters .why_matters_inner .why_matters_img img {
+    width: 100%;
+}
+.why_matters .why_matters_inner .why_matters_content {
+    width: 55%;
+}
+.right_bg_img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7.5vw;
+    height: 14.89583vw
+}
+.right_bg_img img {
+    width: 100%;
+}
+.why_matters .why_matters_inner .why_matters_content .pera_cntent {
+    max-width: 87%;
+    margin-top: 1.97917vw;
+    color: var(--foreground-secondary);
+    line-height: 1.5;
+}
+.our_apporach_section {
+    width: 100%;
+    position: relative;
+    padding-top: 4.94792vw;
+    padding-bottom: 3.22917vw;
+    overflow: hidden;
+}
+.our_apporach_section .our_apporach_inner {
+    width: 100%;
+    gap: 7.03125vw;
+    position: relative;
+}
+.our_apporach_section .our_apporach_inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 46%;
+    transform: translateX(-46%);
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20);
+}
+.our_apporach_section .our_apporach_inner .our_apporach_left {
+    width: 50%;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_right {
+    width: 50%;
+    padding-left: 1.14583vw;
+}
+.our_apporach_section .our_apporach_inner  .pera_cntent {
+    color: var(--foreground-secondary);
+    font-family: var(--theme-barlow-font);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.22px;
+    margin-top: 1.66667vw;
+}
+.our_apporach_right_box .o_a_img .download_hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.70833vw;
+    display: none;
+}
+.our_apporach_right_box .o_a_img .download_hover img {
+    width: 100%;
+}
+.our_apporach_section .our_apporach_right .our_apporach_right_inner .our_apporach_right_box img {
+    width: 100%;
+}
+.our_apporach_right_box:hover .download_hover {
+    display: block;
+}
+.our_apporach_right_box:hover .o_a_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+.our_apporach_right_box .o_a_img {
+    position: relative;
+    width: 11.875vw;
+}
+.our_apporach_section .our_apporach_right .slick-list {
+    margin: 0px -0.52083vw;
+}
+.our_apporach_section .our_apporach_right .slick-slide {
+    margin: 0px 0.52083vw;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_left .pera_cntent ul {
+    list-style-type: disc;
+    padding-left: 1.5625vw;
+    margin-top: 0.83333vw;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_left .pera_cntent ul li {
+    padding-bottom: 25px;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_right .title_heading {
+    color: var(--foreground-on-white-blue);
+    text-align: center;
+    font-family: var(--theme-poppins-font);
+    font-weight: 700;
+    letter-spacing: -1.6px;
+    padding-bottom: 1.5625vw;
+}
+.our_apporach_section .btn-wrap {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.04167vw;
+    align-items: center;
+}
+.our_apporach_section .btn-wrap button {
+    background: var(--container-bg-on-peach);
+    border: none;
+    width: 3.229vw;
+    height: 3.229vw;
+    font-weight: 600;
+    transition: all 0.5s;
+    border-radius: 5.20833vw;
+    -webkit-border-radius: 5.20833vw;
+    -moz-border-radius: 5.20833vw;
+    -ms-border-radius: 5.20833vw;
+    -o-border-radius: 5.20833vw;
+}
+.our_apporach_section .btn-wrap button svg {
+    fill: var(--button-foreground-secondary);
+    color: var(--button-foreground-secondary);
+    width: 100%;
+    height: 100%;
+    padding: 0.521vw;
+}
+.our_apporach_section .btn-wrap button.slick-disabled {
+    opacity: 0.6;
+    background: none;
+}
+
+/* Group section start css  */
+.groups_section {
+    width: 100%;
+    position: relative;
+    padding-top: 5.20833vw;
+    padding-bottom: 4.6875vw;
+    background: var(--background-secondary);
+}
+.groups_section .group_inner {
+    justify-content: start;
+    align-items: start;
+    gap: 1.5625vw;
+    margin-top: 3.22917vw;
+}
+.groups_section .group_left {
+    width: 40%;
+    padding-right: 0.52083vw;
+}
+.groups_section .group_right {
+    width: 60%;
+}
+.groups_section .group_left .group_tabbing li {
+    width: 32.29167vw;
+    margin-bottom: 0.625vw;
+    position: relative;
+}
+.groups_section .group_left .group_tabbing li a {
+    position: relative;
+}
+.groups_section .group_left .group_tabbing li a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+    right: 10px;
+    background-image: url(../images/down-arrow.svg);
+    background-size: cover;
+    width: 1.14583vw;
+    height: 1.14583vw;
+    z-index: 1;
+}
+.groups_section .group_left .group_tabbing li:last-child {
+    margin-bottom: 0px;
+}
+.groups_section .group_left .group_tabbing li a {
+    border: 1.016px solid rgba(0, 0, 0, 0.10);
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0.72917vw 1.25vw;
+    gap: 0.84698vw;
+    align-self: stretch;
+    justify-content: start;
+    align-items: center;
+    color: var(--foreground-primary, #212121);
+    font-weight: 600;
+    position: relative;
+    border-radius: 0.83333vw;
+    -webkit-border-radius: 0.83333vw;
+    -moz-border-radius: 0.83333vw;
+    -ms-border-radius: 0.83333vw;
+    -o-border-radius: 0.83333vw;
+}
+.groups_section .group_left .group_tabbing li a svg path {
+    fill: rgba(33, 33, 33, 1);
+}
+.groups_section .group_left .group_hover {
+    display: none;
+}
+.groups_section .group_left .group_tabbing li a:hover .group_normal {
+    display: none;
+}
+.groups_section .group_left .group_tabbing li a:hover .group_hover {
+    display: block;
+}
+.group_hover {
+    display: none;
+}
+.group-a.active-a .group_hover {
+    display: inline-block;
+}
+.group-a.active-a .group_normal {
+    display: none;
+}
+
+.groups_section .group_left .group_tabbing li span img {
+    width: 2.1875vw;
+    height: 2.1875vw;
+}
+.groups_section .group_right .group_img_tab {
+    width: 100%;
+}
+.groups_section .group_right .group_img_tab img {
+    width: 100%;
+}
+.groups_section .group_tabbing {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-height: 30vw;
+}
+.group_tabbing::-webkit-scrollbar {
+  width: 3px;
+  
+}
+.group_tabbing::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.06);;
+    width: 3px;
+    
+}
+.group_tabbing::-webkit-scrollbar-thumb {
+  background: rgba(218, 82, 44, 1);
+  width: 3px;
+  border-radius: 0.52083vw;
+  -webkit-border-radius: 0.52083vw;
+  -moz-border-radius: 0.52083vw;
+  -ms-border-radius: 0.52083vw;
+  -o-border-radius: 0.52083vw;
+}
+.groups_section .tab-blog {
+    display: none;
+    overflow: hidden;
+    border-radius: 0.72917vw;
+    -webkit-border-radius: 0.72917vw;
+    -moz-border-radius: 0.72917vw;
+    -ms-border-radius: 0.72917vw;
+    -o-border-radius: 0.72917vw;
+}
+.groups_section .tab-blog.tab-active {
+    display: block;
+}
+.groups_section .group_left .group_tabbing li a.active-a {
+    background-color: var(--container-bg-primary);
+    color: var(--foreground-on-white-blue);
+}
+.groups_section .group_left .group_tabbing li a:hover {
+    background-color: var(--container-bg-primary);
+    color: var(--foreground-on-white-blue);
+}
+.group_mobile_img {
+    display: none;
+}
+
+/* Group section start css  */
+
+@media screen and (max-width: 1199px) {
+.pollution_impact_right ul {
+        flex-wrap: wrap;
+        row-gap: 2.5vw;
+    }
+.pollution_impact_right ul li {
+    width: 46%;
+}
+    .pollution_impact_section {
+        margin-top: 50px;
+    }
+.about_banner.clean-air-all_banner .content_banner {
+    width: 70vw;
+    top: 10vw;
+}
+.about_banner.clean-air-all_banner .pera_cntent p {
+    margin-bottom: 0px;
+}
+.pollution_impact_right ul li .pera_cntent {
+    letter-spacing: normal;
+}
+.pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt {
+        gap: 2.04167vw;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: normal;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+.why_matters {
+    padding-top: 11.75vw;
+    padding-bottom: 6.64583vw;
+    margin-top: -6.16667vw;
+}
+.why_matters .why_matters_inner .why_matters_content .pera_cntent {
+    max-width: 100%;
+}
+.our_apporach_section {
+    padding-top: 5vw;
+    padding-bottom: 6vw;
+}
+.right_bg_img {
+    width: 6vw;
+}
+.our_apporach_section .btn-wrap button {
+        width: 4.229vw;
+        height: 4.229vw;
+    }
+.groups_section .group_left {
+    width: 45%;
+    padding-right: 32px;
+}
+.groups_section .group_right {
+    width: 55%;
+}
+.groups_section .group_left .group_tabbing li
+ {
+    width: 34.29167vw;
+    margin-bottom: 1.6vw;
+}
+.groups_section .group_left .group_tabbing li a {
+    padding: 1.5vw;
+    gap: 10px;
+}
+.groups_section .group_left .group_tabbing li span img {
+    width: 3vw;
+    height: 3vw;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_right .title_heading {
+    letter-spacing: normal;
+    padding-bottom: 2.5vw;
+}
+.our_apporach_section .btn-wrap {
+        margin-top: 3vw;
+    }
+.our_apporach_section .our_apporach_inner {
+    gap: 5.03125vw;
+}
+.our_apporach_section .our_apporach_inner::before {
+    left: 48%;
+    transform: translateX(-48%);
+    -webkit-transform: translateX(-48%);
+    -moz-transform: translateX(-48%);
+    -ms-transform: translateX(-48%);
+    -o-transform: translateX(-48%);
+}
+.groups_section .group_inner {
+    gap: 0px;
+}
+.groups_section {
+    padding-bottom: 6vw;
+}
+.our_apporach_right_box .o_a_img {
+    width: 88%;
+}
+.groups_section .group_left .group_tabbing li a::before {
+    width: 20px;
+    height: 20px;
+}
+}
+
+@media screen and (max-width: 991px) {
+    .about_banner.clean-air-all_banner .content_banner {
+        width: 60vw;
+        top: 14vw;
+    }
+    .pollution_impact_section {
+        margin-top: 0px;
+    }
+    .pollution_impact_section .pollution_impact_inner
+ {
+    padding: 3.1875vw 4.64583vw 3.8125vw 3.64583vw;
+ }
+.pollution_impact_right {
+    padding-left: 5.86458vw;
+}
+.our_apporach_section .btn-wrap button {
+        width: 6.229vw;
+        height: 6.229vw;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .why_matters {
+        padding-top: 18vw;
+        padding-bottom: 8vw;
+        margin-top: -12.16667vw;
+    }
+        .groups_section .group_left {
+        width: 55%;
+    }
+    .groups_section .group_right {
+        width: 45%;
+    }
+    .groups_section .group_left .group_tabbing li
+ {
+        width: 96%;
+    }
+        .groups_section .group_left .group_tabbing li a {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+  .groups_section .group_left .group_tabbing li span img {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+.about_banner.clean-air-all_banner .content_banner {
+    width: auto;
+    top: 25vw;
+}
+.about_banner.clean-air-all_banner .breadcrumb {
+    margin-bottom: 5vw;
+}
+    .pollution_impact_section .pollution_impact_inner
+ {
+        flex-direction: column;
+    }
+    .pollution_impact_section {
+        margin-top: 35px;
+    }
+.pollution_impact_section::before
+ {
+        left: 0;
+        top: 33%;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+    }
+     .pollution_impact_section .pollution_impact_inner {
+        padding: 30px;
+        gap: 50px;
+    }
+    .pollution_impact_left {
+    width: 100%;
+}
+    .pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt span {
+        width: 30%;
+    }
+    .pollution_impact_section .pollution_impact_inner .pollution_impact_left .pi_txt {
+        flex-direction: column;
+        font-size: 22px;
+    }
+    .pollution_impact_right
+ {
+        padding-left: 0px;
+        width: 100%;
+    }
+        .pollution_impact_right ul {
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+.why_matters {
+    padding-top: 25vw;
+    padding-bottom: 12vw;
+}
+    .right_bg_img
+ {
+        display: none;
+    }
+.why_matters .why_matters_inner {
+    gap: 35px;
+}
+.why_matters .why_matters_inner .why_matters_img {
+    width: 100%;
+}
+.why_matters .why_matters_inner .why_matters_content {
+    width: 100%;
+}
+.why_matters .why_matters_inner {
+    gap: 40px;
+}
+.our_apporach_section .our_apporach_inner::before {
+    display: none;
+}
+    .our_apporach_section {
+        padding-top: 8vw;
+        padding-bottom: 10vw;
+    }
+.our_apporach_section .our_apporach_inner .our_apporach_left
+ {
+    width: 100%;
+}
+.our_apporach_section .our_apporach_inner  .pera_cntent {
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_left .pera_cntent ul {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.our_apporach_section .our_apporach_inner .our_apporach_right {
+    width: 100%;
+    padding-left: 0px;
+}
+    .our_apporach_right_box .o_a_img {
+        width: 95%;
+        margin: auto;
+    }
+    .our_apporach_section .btn-wrap button {
+        width: 12.229vw;
+        height: 12.229vw;
+        padding: 12px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our_apporach_section .btn-wrap {
+        margin-top: 6vw;
+    }
+.our_apporach_right_box .o_a_img .download_hover {
+    width: 65px;
+}
+.groups_section {
+    padding-bottom: 12vw;
+        padding-top: 10vw;
+}
+.groups_section .group_inner {
+    margin-top: 30px;
+    flex-direction: column;
+}
+    .groups_section .group_left {
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+.groups_section .group_tabbing {
+    max-height: 100%;
+}
+.groups_section .group_left .group_tabbing li {
+    width: 100%;
+}
+.groups_section .group_left .group_tabbing li {
+    margin-bottom: 20px;
+}
+.groups_section .group_left .group_tabbing li a {
+    padding: 20px;
+    gap: 15px;
+}
+.groups_section .group_left .group_tabbing li span img {
+    width: 36px;
+    height: 36px;
+}
+.groups_section .group_left .group_tabbing li a {
+        font-size: 20px;
+    }
+.groups_section .group_right {
+    display: none;
+}
+.groups_section .group_left .group_tabbing li a::before {
+   transform: translateY(-50%) rotate(0deg);
+   -webkit-transform: translateY(-50%) rotate(0deg);
+   -moz-transform: translateY(-50%) rotate(0deg);
+   -ms-transform: translateY(-50%) rotate(0deg);
+   -o-transform: translateY(-50%) rotate(0deg);
+   top: 50%;
+   right: 8px;
+}
+.groups_section .group_left .group_tabbing li a {
+    padding-right: 30px;
+}
+.group_mobile_img {
+    display: block; 
+    width: 100%;
+  }
+  .group_mobile_img img {
+    width: 100%;
+  }
+  .group_mobile_img {
+    display: none;
+  }
+  .group_mobile_img.open {
+    display: block;
+  }
+      .our_apporach_section .our_apporach_inner .our_apporach_right .title_heading {
+        padding-bottom: 5vw;
+    }
+
+}

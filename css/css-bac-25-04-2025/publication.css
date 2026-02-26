@@ -1,0 +1,279 @@
+
+.publications_data {
+    padding-top: 3.125vw;
+}
+
+.publications_up_inner {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.publication_right_inner {
+    display: flex;
+    column-gap: 8px;
+}
+
+.select_publication {
+    width: 11.198vw;
+}
+
+.select_publication select {
+    border-radius: 8px;
+    border: 1px solid var(--container-bg-border-primary);
+    background-color: var(--container-bg-primary);
+    box-shadow: 1px 1px 36px 0px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    padding: 12px 30px;
+    padding-right: 50px;
+    color: var(--foreground-primary);
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/down-arrow.svg) no-repeat calc(100% - 20px) center #fff;
+    background-size: 18px;
+    outline: none;
+}
+
+.publications_data .real_world_inner {
+    flex-wrap: wrap;
+    row-gap: 3.385vw;
+    padding-top: 3.646vw;
+}
+
+
+
+
+
+
+
+
+
+
+.pagination {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination .pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 200px;
+}
+
+.pagination .page-number {
+    cursor: pointer;
+    color: var(--foreground-secondary);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease;
+}
+
+.pagination .active {
+    font-size: 1.3em;
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--foreground-on-blue-secondary);
+    background: var(--foreground-on-white-red);
+    color: var(--foreground-on-blue-primary);
+}
+
+.pagination button {
+    /* width: 120px; */
+    padding: 8px 16px;
+    background-color: #ffffff00;
+    color: #0057b3;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagination button:hover {
+    color: #0056b3;
+}
+
+
+
+.pagination .arrow {
+    font-size: 1.2em;
+}
+
+.pagination .nav-text {
+    font-size: 0.7em;
+    letter-spacing: 0.3em;
+}
+
+
+
+
+
+.publications_data .common_arrow {
+    bottom: 1px;
+    right: 1px;
+}
+
+.multimedia_data .pagination .pages {
+    width: max-content;
+    gap: 10px;
+}
+
+
+.multimedia_data .pagination .arrow {
+    font-size: 2.5em;
+}
+
+.multimedia_data .pagination button {
+    margin: 0 !important;
+    color: #212121;
+}
+
+.multimedia_data .pagination .page-number{
+    font-size: 1.146vw;
+}
+
+.multimedia_data .pagination .active{
+    font-size: 1.146vw;
+}
+
+
+
+@media (max-width: 1439px) {
+
+    .select_publication {
+        width: 13.198vw;
+    }
+
+    .select_publication select {
+        padding-right: 40px;
+    }
+
+    
+
+}
+
+@media (max-width: 1199px) {
+
+    .multimedia_data .pagination .page-number{
+        font-size: 16px;
+    }
+
+   
+    
+    .multimedia_data .pagination .active{
+        font-size: 16px;
+    }
+
+    .real_world_card {
+        flex: 0 0 31%;
+    }
+
+    .publications_data {
+        padding-top: 5.125vw;
+    }
+
+    .publications_data .real_world_inner {
+        flex-wrap: wrap;
+        gap: 3.04167vw;
+        row-gap: 4.385vw;
+        padding-top: 4.646vw;
+        padding-bottom: 4.646vw;
+    }
+
+    .select_publication {
+        width: 14.198vw;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .select_publication select {
+        background-size: 20px;
+    }
+
+    .publications_up_inner {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .publication_right_inner {
+        width: 100%;
+    }
+
+    .select_publication {
+        width: 25%;
+    }
+
+    .publications_data .real_world_inner {
+        flex-wrap: wrap;
+        gap: 5.14167vw;
+        row-gap: 6.385vw;
+        padding-top: 5.646vw;
+        padding-bottom: 5.646vw;
+    }
+
+    .real_world_card {
+        flex: 0 0 47%;
+    }
+
+    .multimedia_data .real_world_card::before {
+        width: 36.1875vw;
+        height: 30.1875vw;
+        bottom: -13.16667vw;
+        right: -15.16667vw;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .publication_right_inner {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .select_publication {
+        width: 100%;
+    }
+
+    .publications_data .real_world_inner {
+        flex-wrap: wrap;
+        gap: 8.14167vw;
+        row-gap: 10.385vw;
+        padding-top: 10.646vw;
+        padding-bottom: 10.646vw;
+    }
+
+    .publications_data .real_world_card {
+        flex: 0 0 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .multimedia_data .real_world_card::before {
+        width: 43.1875vw;
+        height: 34.1875vw;
+        bottom: -10.16667vw;
+        right: -10.16667vw;
+    }
+
+ 
+}

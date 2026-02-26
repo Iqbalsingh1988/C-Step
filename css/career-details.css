@@ -1,0 +1,288 @@
+.career_researcher_sec .opportunity_client_box_inner {
+    display: flex;
+    gap: 0.72917vw;
+    margin-left: 0.36458vw;
+    padding-top: 1.25vw;
+}
+.career_researcher_sec .opportunity_location_box_inner {
+    display: flex;
+    gap: 0.9375vw;
+    margin-left: 0.46875vw;
+    padding-top: 0.72917vw;
+}
+.career_researcher_sec .opportuntiy_box_logo_right_up {
+    color: var(--foreground-secondary);
+}
+.career_researcher_sec .opportuntiy_box_logo_right_down a {
+    color: var(--foreground-on-white-blue, #382C74);
+    text-decoration: underline;
+}
+.career_researcher_social_icons .career_researcher_social_icons_inner {
+    width: 25px;
+    height: 25px;
+}
+.career_researcher_social_icons .career_researcher_social_icons_inner a img {
+    width: 100%;
+    height: 100%;
+}
+.job_details_sec .job_details_left_inner .job_details_points .job_details_point_inner li {
+    font-family: 'Barlow';
+}
+ul.career_researcher_social_icons {
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}   
+.job_details_sec {
+    padding-top: 2.86458vw;
+    padding-bottom: 3.125vw;
+    position: relative;
+}
+.job_details_sec .job_details_inner {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 2.70833vw;
+}
+.job_details_sec .job_details_left .job_details_left_inner {
+    width: 57.96875vw;
+    border-radius: 0.625vw;
+    background: var(--button-container-on-light-white, #FAFAFA);
+    padding: 1.35417vw 2.08333vw;
+}
+.job_details_sec .job_details_left_inner .para_content > * {
+    color: rgba(0, 0, 0, 0.60);
+    }
+.job_details_sec .job_details_left_inner .job_details_points .job_details_point_inner {
+    list-style-type: disc;
+    color: rgba(0, 0, 0, 0.60);
+    padding-left: 1.71875vw;
+    font-weight: 500;
+}
+.job_details_sec .job_details_left_inner .fs-40 {
+    color: var(--secondary, #4D4D4D);
+    padding-top: 2.23438vw;
+    padding-bottom: 0.9375vw;
+}
+.job_details_sec .job_details_left_inner .fs-40:first-child {
+    padding-top: 0px;
+}
+.job_details_input .icon {
+    width: 5.5%;
+}
+.job_details_input .input_txt {
+    width: 95%;
+}
+.job_details_right_inner {
+    width: 25.05208vw;
+    border-radius: 0.41667vw;
+    border: 0.869px solid rgba(0, 0, 0, 0.10);
+    background: var(--text, #FFF);
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.06);
+    padding: 0.83333vw 0.83333vw 1.25vw 0.83333vw;
+    position: sticky;
+    top: 5.20833vw;
+}
+.job_details_right_inner .fs-24 {
+    color: var(--foreground-primary, #212121);
+    font-weight: 600;
+    padding-bottom: 1.30208vw;
+}
+.career_researcher_share {
+    padding-top: 1.61458vw;
+    display: flex;
+    align-items: end;
+    gap: 0.78125vw;
+    color: var(--foreground-secondary, #818181);
+}
+.job_details_form .job_details_input {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.52083vw;
+    margin-bottom: 0.83333vw;
+    border-radius: 4px;
+    border: 0.869px solid var(--black-20, rgba(0, 0, 0, 0.20));
+    background: var(--text, #FFF);
+    padding: 0.625vw;
+    font-size: 0.83333vw;
+    font-family: Barlow;
+    font-weight: 500;
+    transition: border 0.3s ease; 
+}
+.job_details_form .job_details_input:focus-within {
+    border: 1px solid var(--foreground-on-white-blue, #382C74);
+}
+.job_details_input .input_txt input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: Barlow;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.opportuntiy_box_logo_down,
+.opportuntiy_box_logo_up {
+    width: 5%;
+}
+.opportuntiy_box_logo_right_down,
+.opportuntiy_box_logo_right_up  {
+    width: 95%;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .job_details_right_inner {
+        top: 10.20833vw
+    }
+    .job_details_form .job_details_input {
+        gap: 1.98083vw;
+    }
+    .job_details_sec .job_details_left .job_details_left_inner {
+        padding: 2.35417vw 3.08333vw;
+    }
+    .job_details_sec .job_details_left_inner .fs-40 {
+        padding-bottom: 1.9375vw;
+    }
+    .job_details_right_inner {
+        width: 28.05208vw;
+    }
+    .job_details_sec .job_details_point_inner li {
+        padding: 4px 0px;
+        font-family: 'Barlow';
+    }
+    .job_details_sec .job_details_inner {
+        gap: 3.70833vw;
+    }
+    .career_researcher_social_icons .career_researcher_social_icons_inner a img {
+        width: 85%;
+        height: 85%;
+    }
+    .job_details_sec {
+        padding-top: 4.86458vw;
+        padding-bottom: 4.86458vw;
+    }
+    .job_details_right_inner {
+        padding: 1.83333vw 1.83333vw 2.25vw 1.83333vw;
+    }
+    .job_details_form .job_details_input {
+        margin-bottom: 1.83333vw;
+    }
+    .job_details_right_inner .fs-24 {
+        padding-bottom: 2.30208vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .job_details_form .job_details_input {
+        gap: 2.98083vw;
+    }
+    .job_details_sec {
+        padding-top: 5.86458vw;
+        padding-bottom: 5.86458vw;
+    }
+    .about_banner.careers-banners_sec.career_researcher_sec .content_banner {
+        width: 50vw;
+    }
+    .career_researcher_sec .opportunity_client_box_inner {
+        padding-top: 2.25vw;
+    }
+    .career_researcher_sec .opportunity_location_box_inner {
+        padding-top: 1.72917vw;
+    }
+    .career_researcher_share {
+        padding-top: 2.61458vw;
+    }
+    .career_researcher_sec .opportunity_client_box_inner {
+        gap: 1.72917vw;
+    }
+    .career_researcher_sec .opportunity_location_box_inner {
+        gap: 1.9375vw;
+    }
+    .job_details_sec .job_details_inner {
+        grid-template-columns: 7fr 5fr;
+    }
+    .job_details_sec .job_details_left .job_details_left_inner {
+        width: 55.96875vw;
+    }
+    .job_details_right_inner {
+        width: 30.05208vw;
+    }
+    .job_details_sec .job_details_left_inner .job_details_points .job_details_point_inner {
+    padding-left: 22px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .job_details_sec .job_details_inner {
+        grid-template-columns: 1fr;
+    }
+    .job_details_sec .job_details_left .job_details_left_inner {
+        width: 100%;
+    }
+    .job_details_right_inner {
+        width: 55%;
+        margin: auto;
+    }
+    .job_details_sec {
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+    }
+    .job_details_sec .job_details_inner {
+        gap: 6.70833vw;
+    }
+    .job_details_form .job_details_input {
+        margin-bottom: 20px;
+    }
+    .job_details_right_inner .fs-24 {
+        padding-bottom: 3.30208vw;
+    }
+    .job_details_right_inner {
+        padding: 2.83333vw 2.83333vw 3.25vw 2.83333vw;
+    }
+    .job_details_sec .job_details_left .job_details_left_inner {
+        padding: 3.35417vw 4.08333vw;
+    }
+    .job_details_sec .job_details_left .job_details_left_inner .fs-22 {
+        font-size: 18px;
+    }
+    .job_details_sec .job_details_left_inner .fs-40 {
+        padding-top: 4.23438vw;
+        padding-bottom: 2.9375vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_banner.careers-banners_sec.career_researcher_sec .content_banner {
+        width: auto;
+    }
+    .career_researcher_sec .opportunity_client_box_inner {
+    gap: 15px;
+}
+.career_researcher_sec .opportunity_location_box_inner {
+    gap: 15px;
+    padding-top: 15px;
+}
+.career_researcher_share {
+    padding-top: 20px;
+}
+.job_details_sec .job_details_inner {
+    gap: 35px;
+}
+.job_details_right_inner {
+    width: 100%;
+}
+.job_details_form .job_details_input {
+    margin-bottom: 22px;
+    height: 50px;
+}
+.job_details_sec {
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+}
+.job_details_right_inner {
+    padding: 4.83333vw 4.83333vw 4.25vw 4.83333vw;
+}
+.job_details_sec .job_details_left_inner .job_details_points .job_details_point_inner {
+    padding-left: 25px;
+}
+}

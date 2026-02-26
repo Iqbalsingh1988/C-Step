@@ -1,0 +1,1065 @@
+
+/* About page Banner css start */
+.about_banner .content_banner {
+    left: 6.25vw;
+    top: 10.99vw;
+}
+.about_banner img {
+    width: 100%;
+}
+.breadcrumb {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0px 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+.breadcrumb li{
+    position: relative;
+}
+.breadcrumb li::before {
+    content: "";
+    position: absolute;
+    background: url(../images/down-arrow.svg);
+    width: 20px;
+    height: 20px;
+    left: 100%;
+    transform: rotate(266deg);
+    bottom: 4px;
+    background-size: 100% 100%;
+}
+.breadcrumb li:last-child:before {
+    display: none;
+}
+.breadcrumb li a {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--foreground-primary);
+}
+.breadcrumb li.active a {
+    color: var(--foreground-on-white-red);
+    font-weight: 600;
+}
+.about_banner .content_banner .fs-48 {
+    color: var(--foreground-on-white-blue);
+    letter-spacing: -1.92px;
+}
+.about_banner .content_banner span {
+    color: var(--foreground-on-white-red);
+}
+/* About Banner css end */
+
+/* - science tech solution css start   */
+
+.science_solution_section {
+    width: 100%;
+    position: relative;
+    padding-top: 3.00625vw;
+}
+.science_solution_section .common_heading {
+    max-width: 52.86458vw;
+    margin: auto;
+    text-align: center;
+}
+.science_solution_section .common_heading .pera_cantent {
+    color: var(--foreground-secondary);
+    line-height: 1.5;
+    letter-spacing: -0.22px;
+}
+.science_solution_section .common_heading .title_heading {
+    padding-bottom: 0.9375vw;
+    letter-spacing: -1.92px;
+    text-transform: capitalize;
+    line-height: 1.3;
+}
+.science_solution_section .science_solution_video {
+    width: 100%;
+    margin-top: 1.90417vw;
+    position: relative;
+    z-index: 1;
+}
+.science_solution_section .science_solution_video img {
+    width: 100%;
+}
+.science_solution_section .science_solution_video .science_solution_img {
+    position: relative;
+    width: 100%;
+    border-radius: 28.441px;
+    overflow: hidden;
+}
+.science_solution_section .science_solution_video .science_solution_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+}
+.science_solution_section .play-button {
+    right: -6px;
+    top: -2px;
+    border-bottom-left-radius: 30px;
+    left: inherit;
+    background: var(--container-bg-primary);
+}
+
+.science_solution_section .play-button::before {
+    top: 1px;
+    left: -15px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none"><path d="M11.7019 -0.000745773V12.8064C11.7019 4.45804 4.11246 0.789819 0.317749 -0.000745773H11.7019Z" fill="white"/></svg>');
+    /* transform: rotate(179deg);
+    -webkit-transform: rotate(179deg);
+    -moz-transform: rotate(179deg);
+    -ms-transform: rotate(179deg);
+    -o-transform: rotate(179deg); */
+}
+
+.science_solution_section .play-button::after {
+    right: 5px;
+    bottom: -15px;
+    /* transform: rotate(179deg); */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none"><path d="M12.0809 0.819811V13.627C12.0809 5.27859 4.49149 1.61038 0.696777 0.819811H12.0809Z" fill="white"/></svg>');
+}
+
+
+.science_solution_section  .play-button-btn {
+    column-gap: 12px;
+}
+.counter_section {
+    border-radius: 1.25vw;
+    -webkit-border-radius: 1.25vw;
+    -moz-border-radius: 1.25vw;
+    -ms-border-radius: 1.25vw;
+    -o-border-radius: 1.25vw;
+}
+.science_solution_section .vission_misson_counter {
+    background: var(--light-yellow);
+    padding: 2.08333vw 11.823vw 3.95833vw 11.823vw;
+    margin-top: -6.75vw;
+    position: relative;
+}
+.science_solution_section::before {
+    content: "";
+    position: absolute;
+    top: 12%;
+    right: 0;
+    left: 16%;
+    bottom: 0;
+    width: 100%;
+    max-width: 80%;
+    height: 28.64583vw;
+    background: linear-gradient(259deg, rgba(251, 251, 238, 0.29) 7.4%, rgba(218, 82, 44, 0.05) 22.62%, rgba(32, 64, 154, 0.09) 85.46%);
+    filter: blur(45.30532455444336px);
+    z-index: -1;
+}
+.vission_misson_counter .counter_section .counter-item {
+    padding-right: 0;
+}
+.vission_misson_counter .counter_section .counter-item::after {
+    right: -3.97917vw;
+}
+.science_solution_section .vission_mission {
+    -webkit-box-pack: start;
+-webkit-justify-content: flex-start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+    align-items: start;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 5.41667vw;
+    padding-bottom: 1.82292vw;
+}
+.science_solution_section .vission_mission .vission,
+.science_solution_section .vission_mission .mission {
+    width: 50%;
+    text-align: center;
+}
+.science_solution_section .vission_mission .icon {
+    width: 4.21875vw;
+    height: 4.21875vw;
+    margin: auto;
+}
+.science_solution_section .vission_mission .icon img {
+    width: 100%;
+}
+.science_solution_section .vission_mission .fs-40 {
+    color: var(--foreground-primary);
+    margin-top: 0.64167vw;
+    margin-bottom: 0.36458vw;
+}
+.science_solution_section .vission_mission .pera_cantent {
+    color: var(--foreground-secondary);
+}
+.counter_section {
+    border-radius: 1.25vw;
+    -webkit-border-radius: 1.25vw;
+    -moz-border-radius: 1.25vw;
+    -ms-border-radius: 1.25vw;
+    -o-border-radius: 1.25vw;
+}
+.science_solution_section .counter_section {
+    z-index: 1;
+    position: relative;
+    padding-left: 4.271vw;
+    padding-right: 4.271vw;
+}
+.science_solution_section .counter_section .counter-inner {
+    justify-content: space-between;
+}
+/* - science tech solution css end   */
+
+/* About  Founder css start */
+.about_founder_section {
+    padding: 9.50417vw 0px 2.86458vw 0px;
+    position: relative;
+    width: 100%;
+    background: var(--background-secondary);
+}
+.about_founder_section .about_founder_inner {
+    -webkit-box-pack: start;
+-webkit-justify-content: flex-start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+    align-items: stretch;
+    gap: 2.29167vw;
+}
+.about_founder_section .about_founder_inner .about_founder_left {
+    width: 23%;
+    position: relative;
+}
+.about_founder_section .about_founder_left .about_founder_img {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.about_founder_section .about_founder_inner .about_founder_left img {
+    width: 100%;
+}
+.about_founder_section .about_founder_inner .about_founder_right {
+    width: 77%;
+    position: relative;
+}
+.about_founder_section .about_founder_inner .about_founder_right .about_founder_content {
+    max-width: 83%;
+    position: relative;
+    height: 80%;
+}
+
+.about_founder_section .about_founder_inner .about_founder_left .play-button {
+    top: 0;
+    transform: rotate(90deg);
+    background: var(--container-bg-primary);
+}
+.about_founder_section .about_founder_inner .about_founder_left .play-button svg {
+    transform: rotate(30deg);
+}
+.about_founder_section .about_founder_inner .about_founder_right .pera_cntent {
+    color: var(--foreground-secondary);
+    line-height: 1.5;
+}
+.about_founder_section .about_founder_inner .about_founder_right .common_heading {
+    padding-bottom: 0.625vw;
+}
+.about_founder_section .quotation_icon {
+    position: absolute;
+    top: 9%;
+    left: 28%;
+    width: 13.24958vw;
+    height: 10.12328vw;
+}
+.about_founder_section .quotation_icon img {
+    width: 100%;
+}
+.about_founder_section .ab_right_icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 14.583vw;
+}
+.about_founder_section .ab_right_icon img {
+    width: 100%;
+}
+.about_founder_section  .founder_chairman {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: var(--container-bg-primary);
+    box-shadow: 1px 1px 108px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    text-align: center;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: 16px;
+}
+
+.about_founder_section .about_founder_inner .about_founder_right .bg_button{
+    margin-top: 2.604vw;
+}
+
+/* About  Founder css end */
+
+/* Our history section css start */
+.our_history_section {
+    position: relative;
+    width: 100%;
+    padding: 3.25vw 0px;
+}
+.our_history_section .common_heading .title_heading {
+    text-align: center;
+}
+.our_history_section .our_history_row {
+    margin-top: 4.6875vw;
+    justify-content: start;
+    align-items: start;
+    gap: 5.20833vw;
+}
+.our_history_section .our_history_row .our_history_left {
+    width: 45.9375vw;
+}
+.our_history_section .our_history_row .our_history_right {
+    width: 32.91667vw;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.our_history_section .our_history_row .our_history_right img {
+    width: 100%;
+}
+.our_history_section .our_history_row .our_history_left .fs-32 {
+    color: var(--foreground-on-white-blue);
+    font-weight: 600;
+    letter-spacing: -1.28px;
+    line-height: 1.2;
+    margin-bottom: 1.16667vw;
+}
+.our_history_section .our_history_row .our_history_left .pera_cntent {
+    color: var(--foreground-secondary);
+    letter-spacing: -0.22px;
+    line-height: 1.5;
+}
+
+/* Our history section css end */
+
+/* Regulatory and Financial css start */
+.regulatory_financial_section {
+    position: relative;
+    width: 100%;
+    padding: 4.27083vw 0px;
+    background: var(--background-secondary);
+}
+.regulatory_financial_section .regulatory_financial_row {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 3.125vw;
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_left {
+    width: 41%;
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_left img {
+    width: 100%;
+    position: relative;
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_right {
+    width: 59%;
+    padding-right: 5.46875vw;
+}
+.regulatory_financial_section .regulatory_financial_row .pera_cntent {
+    color: var(--foreground-secondary);
+    margin-top: 1.5625vw;
+}
+.regulatory_financial_section .regulatory_financial_row .pera_cntent > * {
+    color: var(--foreground-secondary);
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_left .rf_img {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_left .rf_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.regulatory_financial_section .regulatory_financial_row .rf_list ul {
+    margin-top: 1.04167vw;
+}
+.regulatory_financial_section .regulatory_financial_row .rf_list ul li {
+    color: var(--foreground-secondary);
+    margin-bottom: 0.3375vw;
+    letter-spacing: -0.22px;
+    font-family: var(--theme-barlow-font);
+    font-weight: 500;
+}
+.regulatory_financial_section .regulatory_financial_row .rf_list ul li:last-child {
+    margin-bottom: 0px;
+}
+.regulatory_financial_section .regulatory_financial_row .rf_list .pera_cntent {
+    color: var(--foreground-primary);
+}
+.regulatory_financial_section .regulatory_financial_row .rf_list .pera_cntent > * {
+    color: var(--foreground-primary);
+}
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_right .bg_button {
+    margin-top: 2.34375vw;
+}
+/* Regulatory and Financial section end */
+
+/* Annual Report Section start */
+.annual_report_section {
+    position: relative;
+    width: 100%;
+    background: var(--bg-gradient, linear-gradient(259deg, var(--gradient-bg-section-primary, rgba(251, 251, 238, 0.16)) 7.4%, var(--gradient-bg-section-secondary, rgba(218, 82, 44, 0.03)) 22.62%, var(--gradient-bg-section-tertiory, rgba(56, 44, 116, 0.00)) 85.46%));
+}
+.annual_report_section .annual_report_inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.annual_report_section .annual_report_inner .annual_report_left {
+    width: 70%;
+    padding: 4.16667vw 2.70833vw 4.6875vw 6.25vw;
+    background: var(--light-yellow);
+}
+.annual_report_section .annual_report_inner .annual_report_right {
+    width: 30%;
+    position: relative;
+}
+.annual_report_section .annual_report_content .common_heading .title_heading {
+    letter-spacing: -1.92px;
+}
+.annual_report_section .annual_report_inner .annual_report_right .annual_report_right_img {
+    height: 100%;
+}
+.annual_report_section .annual_report_inner .annual_report_right img {
+    width: 100%;
+    height: 100%;
+}
+.annual_report_section .annual_report_left .annual_report_left_row {
+    width: 100%;
+    -webkit-box-pack: start;
+-webkit-justify-content: flex-start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+    align-items: center;
+    gap: 3.38542vw;
+}
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_img {
+    width: 21.09375vw;
+    border-radius: 14.07px;
+    overflow: hidden;
+}
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_img img {
+    width: 100%;
+}
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content {
+    width: 35vw;
+}
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content .pera_cntent {
+    color: var(--foreground-secondary);
+    letter-spacing: -0.22px;
+    padding-top: 0.52083vw;
+}
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content .bg_button {
+    margin-top: 1.30208vw;
+}
+.annual_report_section .annual_report_right_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0px 6.51042vw;
+}
+.annual_report_section .annual_report_right_inner .icon {
+    width: 3.95833vw;
+    margin: auto;
+}
+.annual_report_section .annual_report_right_inner .icon img {
+    width: 100%;
+}
+.annual_report_section .annual_report_right_inner .pera_cntent {
+    color: var(--foreground-secondary);
+    letter-spacing: -0.22px;
+}
+.annual_report_section .annual_report_right_inner .bg_button {
+    margin-top: 1.5625vw;
+}
+/* Annual Report Section end */
+
+
+
+/* start tab slider */
+
+.history_slider {
+    border-radius: 72px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: #FFF;
+    padding: 13px 30px;
+    width: 51.042vw;
+    margin: 0 auto;
+    margin-top: 3.906vw;
+}
+
+
+.history_item a {
+    position: relative;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
+    color: var(--foreground-secondary);
+    font-weight: 600;
+}
+
+.history_item a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: var(--foreground-secondary,);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.history_item a.activelink {
+    padding-left: 33px;
+    font-weight: 600;
+    color: var(--foreground-on-white-red);
+    font-size: 1.667vw;
+    margin-top: -0.365vw;
+}
+
+.history_item a.activelink::before{
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none"><g clip-path="url(%23clip0_138_59)"><circle cx="16.9262" cy="16.9999" r="15.9923" fill="%23DA522C" stroke="%23FBFBEE" stroke-width="2.13231"/><circle cx="16.9261" cy="17.0001" r="3.73154" fill="%23FBFBEE"/></g><defs><clipPath id="clip0_138_59"><rect width="34" height="34" fill="white"/></clipPath></defs></svg>');
+    background-size: 100% 100%;
+    width: 27px;
+    height: 27px;
+    box-shadow: 0.933px 0.933px 7.463px 0px rgba(0, 0, 0, 0.35);
+}
+
+.our_history_section .active{
+    display: block;
+}
+.our_history_section .hide{
+    display: none;
+}
+
+.our_history_section .slick-prev:before{
+    display: none;
+}
+
+.our_history_section .slick-prev{
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77" fill="none"><g filter="url(%23filter0_d_1_227)"><rect width="40" height="40" rx="20" transform="matrix(-1 0 0 1 57 17)" fill="white" shape-rendering="crispEdges"/><rect x="-0.769231" y="0.769231" width="38.4615" height="38.4615" rx="19.2308" transform="matrix(-1 0 0 1 55.4615 17)" stroke="black" stroke-opacity="0.1" stroke-width="1.53846" shape-rendering="crispEdges"/><path fill-rule="evenodd" clip-rule="evenodd" d="M41.6621 46.6371C42.1126 46.1532 42.1126 45.3686 41.6621 44.8847L34.7856 37.5L41.6621 30.1153C42.1126 29.6314 42.1126 28.8468 41.6621 28.3629C41.2115 27.879 40.4809 27.879 40.0302 28.3629L32.3379 36.6238C31.8874 37.1077 31.8874 37.8923 32.3379 38.3762L40.0302 46.6371C40.4809 47.121 41.2115 47.121 41.6621 46.6371Z" fill="black"/></g><defs><filter id="filter0_d_1_227" x="0.0769233" y="0.0769233" width="76.9231" height="76.9231" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="1.53846" dy="1.53846"/><feGaussianBlur stdDeviation="9.23077"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_227"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_227" result="shape"/></filter></defs></svg>');
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    left: -40px;
+}
+
+.our_history_section .slick-next{
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77" fill="none"><g filter="url(%23filter0_d_1_225)"><rect x="17" y="17" width="40" height="40" rx="20" fill="white" shape-rendering="crispEdges"/><rect x="17.7692" y="17.7692" width="38.4615" height="38.4615" rx="19.2308" stroke="black" stroke-opacity="0.1" stroke-width="1.53846" shape-rendering="crispEdges"/><path fill-rule="evenodd" clip-rule="evenodd" d="M32.3379 46.6371C31.8874 46.1532 31.8874 45.3686 32.3379 44.8847L39.2144 37.5L32.3379 30.1153C31.8874 29.6314 31.8874 28.8468 32.3379 28.3629C32.7885 27.879 33.5191 27.879 33.9698 28.3629L41.6621 36.6238C42.1126 37.1077 42.1126 37.8923 41.6621 38.3762L33.9698 46.6371C33.5191 47.121 32.7885 47.121 32.3379 46.6371Z" fill="black"/></g><defs><filter id="filter0_d_1_225" x="0.0769233" y="0.0769233" width="76.9231" height="76.9231" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="1.53846" dy="1.53846"/><feGaussianBlur stdDeviation="9.23077"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_225"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_225" result="shape"/></filter></defs></svg>');
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    right: -40px;
+}
+
+.our_history_section .slick-next::before{
+    display: none;
+}
+
+
+/* end tab slider */
+
+
+
+/* start media */
+
+
+@media screen and (max-width: 1199px) {
+
+    .science_solution_section .common_heading {
+        max-width: 70.86458vw;
+    }
+
+    .science_solution_section {
+        padding-top: 5.90625vw;
+    }
+
+    .about_banner img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .about_banner .content_banner {
+        left: 4.25vw;
+        top: 11.99vw;
+    }
+
+    .science_solution_section .science_solution_video {
+        margin-top: 4.60417vw;
+    }
+
+
+    .science_solution_section .vission_misson_counter {
+        padding: 2.08333vw 8.823vw 3.95833vw 8.823vw;
+        margin-top: -9.25vw;
+    }
+
+    .science_solution_section .vission_mission .fs-40 {
+        margin-top: 1.54167vw;
+        margin-bottom: 0.86458vw;
+    }
+   
+    .about_founder_section .about_founder_inner {
+        gap: 3.29167vw;
+    }
+
+    .about_founder_section .about_founder_inner .about_founder_left {
+        width: 30%;
+    }
+
+    .about_founder_section .quotation_icon {
+        position: absolute;
+        top: 8%;
+        left: 32%;
+    }
+
+    .history_slider {
+        padding: 13px 30px;
+        width: 70.042vw;
+        margin-top: 4.906vw;
+    }
+
+    .history_item a {
+        font-size: 2.05vw;
+    }
+
+    .our_history_section .our_history_row .our_history_left {
+        width: 52.9375vw;
+    }
+
+    .regulatory_financial_section .regulatory_financial_row .regulatory_financial_left {
+        width: 50%;
+    }
+
+    .regulatory_financial_section .regulatory_financial_row .regulatory_financial_right {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .regulatory_financial_section {
+        padding: 5.27083vw 0px;
+    }
+
+    .our_history_section {
+        padding: 4.75vw 0px;
+    }
+
+    .annual_report_section .annual_report_inner .annual_report_left {
+        width: 64%;
+        padding: 4.16667vw 2.70833vw 4.6875vw 4.25vw;
+    }
+
+    .annual_report_section .annual_report_inner .annual_report_right {
+        width: 36%;
+    }
+
+    .science_solution_section .counter_section .counter-item {
+        padding-left: 8.20833vw;
+    }
+
+    .science_solution_section .counter_section .counter-item:first-child{
+        padding-left: 0;
+    }
+   
+    .history_item a.activelink {
+        font-size: 2.25vw;
+        margin-top: -.365vw;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+.about_banner .content_banner {
+    left: 4.25vw;
+    top: 18.99vw;
+    width: 40.896vw;
+}
+
+.about_banner img {
+    height: 300px;
+}
+
+.science_solution_section .common_heading {
+    max-width: 100%;
+}
+
+
+.science_solution_section .counter_section {
+    padding-left: 3.271vw;
+    padding-right: 3.271vw;
+}
+
+
+.counter_section {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.science_solution_section .vission_misson_counter {
+    padding: 0.08333vw 7.823vw 4.95833vw 7.823vw;
+    margin-top: -7.25vw;
+}
+
+.founder_chairman .common_heading .title_heading {
+    font-size: 16px;
+}
+
+.about_founder_section .about_founder_inner {
+    gap: 4.29167vw;
+}
+
+.about_founder_section .about_founder_inner .about_founder_left {
+    width: 40%;
+}
+
+.about_founder_section .about_founder_inner .about_founder_right .about_founder_content {
+    max-width: 100%;
+}
+
+.about_founder_section {
+    padding: 10.10417vw 0px 5.86458vw 0px;
+}
+
+.about_founder_section .quotation_icon {
+    top: 8%;
+    left: 38%;
+}
+
+.history_slider {
+    padding: 13px 30px;
+    width: 100%;
+    margin-top: 4.906vw;
+}
+
+.our_history_section {
+    padding: 5.75vw 0px;
+}
+
+.our_history_section .our_history_row .our_history_right {
+    width: 40.91667vw;
+}
+
+.our_history_section .our_history_row {
+    margin-top: 5.6875vw;
+    gap: 5.20833vw;
+}
+
+.annual_report_section .annual_report_inner {
+    flex-wrap: wrap;
+}
+
+.annual_report_section .annual_report_inner .annual_report_left {
+    width: 100%;
+    padding: 4.16667vw 4.70833vw 4.6875vw 4.25vw;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row {
+    gap: 5.38542vw;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_img {
+    width: 30.09375vw;
+    border-radius: 20.07px;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content {
+    width: 56vw;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content .pera_cntent{
+    padding: 10px 0px;
+}
+
+.annual_report_section .annual_report_inner .annual_report_right {
+    width: 100%;
+}
+
+.annual_report_section .annual_report_inner .annual_report_right .annual_report_right_img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.annual_report_section .annual_report_right_inner .icon {
+    width: 5.95833vw;
+}
+
+.annual_report_section .annual_report_right_inner .common_heading{
+    padding: 10px 0px;
+}
+
+.annual_report_section .annual_report_right_inner .pera_cntent {
+    margin-bottom: 10px;
+}
+
+.regulatory_financial_section .regulatory_financial_row {
+    gap: 4.125vw;
+}
+
+.history_item a.activelink {
+    font-size: 2.45vw;
+    margin-top: -.265vw;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.about_banner img {
+    height: 100%;
+}
+
+.about_banner .content_banner {
+    left: 0;
+    top: 26.99vw;
+    width: 100%;
+}
+
+.about_banner .content_banner .fs-48 {
+    letter-spacing: 0.18px;
+}
+
+.breadcrumb li a {
+    font-size: 14px;
+}
+
+.breadcrumb li::before {
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+}
+
+.science_solution_section {
+    padding-top: 10.90625vw;
+}
+
+.science_solution_section .common_heading .title_heading {
+    padding-bottom: 2.9375vw;
+    letter-spacing: -0.52px;
+}
+
+.science_solution_section .science_solution_video {
+    margin-top: 7.60417vw;
+}
+
+.science_solution_section .science_solution_video img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.science_solution_section .vission_misson_counter {
+    padding: 0.08333vw 4.25vw 8.95833vw 4.25vw;
+    margin-top: 10.25vw;
+}
+
+.science_solution_section .counter_section .counter-item:first-child {
+    padding-left: 5.20833vw;
+}
+
+.science_solution_section .counter_section .counter-item {
+    padding-left: 5.20833vw;
+}
+
+.science_solution_section .vission_mission .vission, .science_solution_section .vission_mission .mission {
+    width: 100%;
+}
+
+.science_solution_section .vission_mission .icon {
+    width: 10.21875vw;
+    height: 10.21875vw;
+}
+
+.science_solution_section .vission_mission {
+    gap: 8.75vw;
+    width: 100%;
+    padding-top: 8.41667vw;
+    padding-bottom: 0;
+}
+
+.about_founder_section .about_founder_inner .about_founder_left {
+    width: 100%;
+}
+
+.about_founder_section .about_founder_inner .about_founder_right {
+    width: 100%;
+}
+
+.about_founder_section .about_founder_inner {
+    gap: 7.29167vw;
+}
+
+.about_founder_section {
+    padding: 10.10417vw 0px 10.86458vw 0px;
+}
+
+.history_item a {
+    font-size: 6.05vw;
+}
+
+.our_history_section .our_history_row .our_history_left {
+    width: 100%;
+}
+
+.our_history_section .our_history_row {
+    margin-top: 7.6875vw;
+    gap: 7.20833vw;
+}
+
+.our_history_section .our_history_row .our_history_right {
+    width: 100%;
+}
+
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_left {
+    width: 100%;
+}
+
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_right {
+    width: 100%;
+}
+
+.regulatory_financial_section .regulatory_financial_row {
+    gap: 9.125vw;
+    flex-direction: column-reverse;
+}
+
+
+
+.regulatory_financial_section .regulatory_financial_row .pera_cntent {
+    margin-top: 3.5625vw;
+}
+
+.regulatory_financial_section .regulatory_financial_row .rf_list ul {
+    margin-top: 5.04167vw;
+}
+
+.regulatory_financial_section .regulatory_financial_row .regulatory_financial_right .bg_button {
+    margin-top: 5.34375vw;
+}
+
+.regulatory_financial_section {
+    padding: 10.27083vw 0px;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_img {
+    width: 100%;
+    border-radius: 12.07px;
+}
+
+.annual_report_section .annual_report_inner .annual_report_left {
+    width: 100%;
+    padding: 10.16667vw 4.70833vw 10.6875vw 4.25vw;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content {
+    width: 100%;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row {
+    gap: 7.38542vw;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row .annual_report_content .bg_button {
+    margin-top: 2.30208vw;
+}
+
+.annual_report_section .annual_report_inner .annual_report_right .annual_report_right_img {
+    height: 370px;
+}
+
+.history_item a.activelink {
+    font-size: 6.05vw;
+    margin-top: -.165vw;
+}
+
+.our_history_section .our_history_row .our_history_left .fs-32{
+    margin-bottom: 2.66667vw;
+    font-size: 22px;
+}
+
+.our_history_section .slick-next {
+    width: 60px;
+    height: 60px;
+    right: -25px;
+}
+
+.our_history_section .slick-prev{
+    width: 60px;
+    height: 60px;
+    left: -25px;
+}
+
+.our_history_section {
+    padding: 10.75vw 0;
+}
+
+.annual_report_section .annual_report_left .annual_report_left_row {
+    gap: 9.38542vw;
+    flex-direction: column-reverse;
+}
+
+.annual_report_section .annual_report_right_inner .icon {
+    width: 12.95833vw;
+}
+
+.history_item a.activelink {
+    padding-left: 40px;
+}
+
+.history_item a.activelink::before {
+    left: 7px;
+}
+
+}
+
+
+/* end media */
+
+

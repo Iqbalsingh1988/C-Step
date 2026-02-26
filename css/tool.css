@@ -1,0 +1,86 @@
+
+
+.tool_filter_main .project_section_right .real_world_inner{
+    flex-wrap: wrap;
+    row-gap: 1.563vw;
+    column-gap: 1.042vw;
+    padding-top: 10px !important;
+}
+
+
+.tool_filter_main .project_section_right .real_world_inner .real_world_card {
+    flex: 0 0 32%;
+}
+
+
+.search_tool {
+    border-radius: 8px;
+    border: 1px solid rgba(33, 33, 33, 0.10);
+    background: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    display: flex;
+}
+
+.search_tool .search_btn_tool{
+    width: 60px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.search_tool input {
+    width: 100%;
+    flex: 1;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 18px;
+}
+
+.filter_search{
+    margin-bottom: 15px;
+}
+
+.ancer_tag_tool {
+    padding-top: 10px;
+}
+
+.ancer_tag_tool a{
+    color: var(--foreground-on-white-blue);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.22px;
+    text-decoration: underline;
+    font-family: var(--theme-barlow-font);
+}
+
+@media screen and (max-width: 991px) {
+
+.tool_filter_main .project_section_right .real_world_inner .real_world_card {
+    flex: 0 0 47%;
+}
+
+.tool_filter_main .project_section_right .real_world_inner {
+    flex-wrap: wrap;
+    row-gap: 2.563vw;
+    column-gap: 2.542vw;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.tool_filter_main .project_section_right .real_world_inner .real_world_card {
+    flex: 0 0 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.tool_filter_main .project_section_right .real_world_inner {
+    row-gap: 7.563vw;
+}
+
+}
+

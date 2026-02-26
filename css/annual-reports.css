@@ -1,0 +1,113 @@
+.annual_report_sec .common_arrow:hover .arrow_main {
+    background: var(--button-container-primary);
+}
+
+.annual_report_sec .common_arrow .arrow_main {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.annual_report_sec .common_arrow:hover .arrow_main .arrow_btn_left {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.annual_report_sec .common_arrow .arrow_main .arrow_btn_left {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.annual_report_sec span.fs-18 {
+    color: var(--foreground-secondary);
+    text-transform: uppercase;
+}
+
+.annual_report_sec .fs-24 {
+    overflow: hidden;
+    color: var(--foreground-primary, #212121);
+    font-weight: 600;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    /* nowrap hata diya */
+}
+
+.annual_report_sec p {
+    overflow: hidden;
+    color: var(--foreground-secondary, #818181);
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.22px;
+    max-width: 85%;
+}
+
+.annual_report_sec .real_world_card_content {
+    padding-bottom: 2.5vw;
+}
+
+@media screen and (max-width: 1199px) {
+    .annual_report_sec .common_arrow {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .annual_report_sec .real_world_card_content {
+        padding-bottom: 3vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .annual_report_sec .real_world_card_content {
+        padding-bottom: 4vw;
+    }
+
+    .annual_report_sec .common_arrow {
+        width: 6.5vw;
+        height: 6.5vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .publications_data {
+        padding-top: 12.125vw;
+    }
+
+    .annual_report_sec .fs-24 {
+        margin: 15px 0;
+    }
+
+    .annual_report_sec .common_arrow {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .annual_report_sec .real_world_card_content {
+        padding-bottom: 7vw;
+    }
+
+    .publications_data .real_world_inner {
+        padding-bottom: 12.646vw;
+    }
+
+    .annual_report_sec .common_arrow .arrow_main {
+        right: 2px;
+        bottom: 2px;
+    }
+}
