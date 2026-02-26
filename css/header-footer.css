@@ -8,7 +8,7 @@
     border-bottom: 1px solid var(--container-bg-border-primary);
     background: var(--container-bg-primary);
     top: 0;
-    z-index: 9;
+    z-index: 99;
     height: 77px;
 }
 
