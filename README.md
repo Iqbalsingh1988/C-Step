@@ -18,3 +18,7 @@ JavaScript and Bootstrap.
 ## Live Demo
 https://iqbalsingh1988.github.io/C-Step/
 
+## Website Screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/56220e34-ae59-41de-b3e8-a7d0dacdf5ba" />
+
+
